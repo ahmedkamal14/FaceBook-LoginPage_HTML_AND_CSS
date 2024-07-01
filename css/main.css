@@ -77,6 +77,22 @@ html {
     margin-bottom: 20px;
 }
 
+@media (max-width:767px) {
+    .parent .container .text {
+        margin: 5px auto;
+        text-align: center;
+    }
+
+    .parent .container .text h1 {
+        font-size: 40px;
+    }
+
+    .parent .container .text p {
+        font-size: 20px;
+    }
+
+}
+
 /* Form */
 
 .parent .container .login-form {
